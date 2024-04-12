@@ -23,7 +23,7 @@ exec-once = augment-wallman
 ...
 ```
 
-To change the wallpaper, you can replace `~/.config/background` with any wallpaper you want. The config for `augment-wallman` can be found in `~/.config/augment/wallman.toml`.
+To change the wallpaper, you can replace `~/.config/background` with any wallpaper you want, then call `augment-wallman`. The config for `augment-wallman` can be found in `~/.config/augment/wallman.toml`.
 
 ## License
 
