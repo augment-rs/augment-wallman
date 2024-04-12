@@ -1,0 +1,21 @@
+[package]
+name = "augment-wallman"
+authors = ["nanashi <bagaresalken@gmail.com>"]
+description = "Wallpaper Manager for wlroots-based compositors."
+version = "0.1.0-alpha"
+repository = "https://github.com/augment-rs/augment-wallman"
+edition = "2021"
+license = "GPL-3.0-or-later"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+gtk = "0.18.1"
+gtk-layer-shell = "0.8.0"
+image = "0.25.1"
+serde = { version = "1.0.197", features = ["derive"] }
+sysinfo = "0.30.10"
+thiserror = "1.0.58"
+toml = "0.8.12"
+xdg = "2.5.2"
