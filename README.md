@@ -6,7 +6,7 @@ Manages wallpapers for Hyprland.
 
 ### Cargo
 
-    sudo cargo install augment-wallman --root /usr/local
+    # cargo install augment-wallman --version "0.1.0-alpha" --root /usr/local
 
 > [!IMPORTANT]
 > `augment-wallman` must be installed outside the user home directory due permission pupposes.
